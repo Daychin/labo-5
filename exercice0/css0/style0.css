@@ -1,0 +1,49 @@
+
+h1{
+    text-align: center;
+    font-size: xx-large
+}
+#conteneur {
+
+display: grid;
+grid-template-columns: repeat(3, 1fr) ;
+background-color: pink;
+max-width: 50%;
+margin: auto;
+}
+
+div :nth-child(even) {
+    background-color: aqua;
+   
+}
+
+div{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+div div{
+    padding: 1em;
+}
+
+#conteneur2 {
+
+    display: grid;
+    grid-template-columns: 1fr  2fr  3fr ;
+    background-color: pink;
+    max-width: 50%;
+    margin: auto;
+}
+
+#conteneur3 {
+
+    display: grid;
+    grid-template-columns: 1fr  2fr  3fr ;
+    background-color: pink;  
+    grid-template-rows: 2fr 1fr 1fr;
+    max-width: 50%;
+    margin: auto;
+            
+}
+    

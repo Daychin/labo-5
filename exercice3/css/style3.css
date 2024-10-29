@@ -1,0 +1,40 @@
+
+div{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7,130px);
+    margin: auto;
+    grid-template-areas: 
+
+        "header header header"
+        "nav nav nav "
+        "aside main main"
+        "aside main main"
+        "aside main main"
+        "aside main main"
+        "footer footer footer";
+    background-color: aqua;
+    border-collapse: collapse;
+    border: 2px solid white;
+    max-width: 100%;
+      
+}
+
+header{grid-area: header;}
+
+nav{grid-area: nav;}
+
+aside{grid-area: aside;}
+
+main{grid-area: main;}
+
+footer{grid-area: footer;}
+
+.plus{
+    border-collapse: collapse;
+    border: 2px solid white;
+    text-align: left;
+    padding: 2em;
+
+}
